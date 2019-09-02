@@ -15,7 +15,7 @@ class SplashscreenActivity : AppCompatActivity() {
             override fun run() {
                 try {
                     // add sleep for 5 sec
-                    Thread.sleep(5000)
+                    Thread.sleep(3000)
 
                     // add destination activity
                     val intent = Intent(baseContext, MainActivity::class.java)
@@ -26,7 +26,7 @@ class SplashscreenActivity : AppCompatActivity() {
             }
         }
 
-// call the object
+        // call the object
         background.start()
     }
 }
